@@ -15,7 +15,7 @@ const EventPage = () => {
             <p className="text-gray-400 text-lg">Hosted by Elysla</p>
 
             <div className="flex sm:flex-col">
-                <div className="rounded-full items-center shadow-lg cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-lg w-[50px] items-center cursor-pointer hover:scale-105 ease-in duration-300">
                     <MdOutlineDateRange />
                 </div>
                 <div>
@@ -24,8 +24,8 @@ const EventPage = () => {
                 </div>
             </div>
 
-            <div className="flex sm:flex-col">
-                <div className="rounded-full items-center shadow-lg cursor-pointer hover:scale-105 ease-in duration-300 ">
+            <div className="flex sm:flex-row">
+                <div className="rounded-lg w-[50px] items-center  cursor-pointer hover:scale-105 ease-in duration-300 ">
                     <IoLocationOutline className="" />
                 </div>
                 <div>
