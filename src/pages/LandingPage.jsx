@@ -17,7 +17,7 @@ const LandingPage = () => {
         </div>
 
         <div className="flex flex-col lg:pr-4">
-          <div className="mx-3 mb-4"> 
+          <div className="mx-3 mb-4">
             <h1 className="text-3xl text-[#240D57] text-end ">
               Imagine if <br />{" "}
               <span className="text-[#8456EC] text-3xl font-bold">
@@ -26,13 +26,13 @@ const LandingPage = () => {
               <br /> had events
             </h1>
             <p className="text-gray-400 mt-2 text-end">
-              Easily host and share events with your friends <br /> across any social
-              media
+              Easily host and share events with your friends <br /> across any
+              social media
             </p>
           </div>
-          <Buttons>
-            Create my event
-          </Buttons>
+          <Link to="/eventpage">
+            <Buttons>Create my event</Buttons>
+          </Link>
         </div>
       </div>
     </div>

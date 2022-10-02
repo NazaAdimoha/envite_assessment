@@ -15,21 +15,21 @@ const EventPage = () => {
             <p className="text-gray-400 text-lg">Hosted by Elysla</p>
 
             <div className="flex sm:flex-col">
-                <div>
+                <div className="rounded-full items-center shadow-lg cursor-pointer hover:scale-105 ease-in duration-300">
                     <MdOutlineDateRange />
                 </div>
                 <div>
-                    <h3>18 August 6:00PM</h3>
-                    <span>to</span><h3>19 August 1:00PM UTC </h3>
+                    <h3 className="text-[#240D57]">18 August 6:00PM</h3>
+                    <span>to</span><h3 className="text-gray-700 font-bold">19 August 1:00PM UTC </h3>
                 </div>
             </div>
 
             <div className="flex sm:flex-col">
-                <div>
-                    <IoLocationOutline />
+                <div className="rounded-full items-center shadow-lg cursor-pointer hover:scale-105 ease-in duration-300 ">
+                    <IoLocationOutline className="" />
                 </div>
                 <div>
-                    <h3>Street name</h3>
+                    <h3 className="text-[#240D57]">Street name</h3>
                     <h3>Suburb, State, Postcode</h3>
                 </div>
             </div>
